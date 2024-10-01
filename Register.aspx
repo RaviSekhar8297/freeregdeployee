@@ -23,28 +23,28 @@
                     <td>Id</td>
                     <td>:</td>
                     <td>
-                        <asp:TextBox ID="txtid" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtid" runat="server" AutoCompleteType="Disabled"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>Name</td>
                     <td>:</td>
                     <td>
-                        <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtname" runat="server" AutoCompleteType="Disabled"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>Phone</td>
                     <td>:</td>
                     <td>
-                        <asp:TextBox ID="txtphone" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtphone" runat="server" AutoCompleteType="Disabled"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>Email</td>
                     <td>:</td>
                     <td>
-                        <asp:TextBox ID="txtemail" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtemail" runat="server" AutoCompleteType="Disabled"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -65,7 +65,7 @@
                     <td>DOB</td>
                     <td>:</td>
                     <td>
-                        <asp:TextBox ID="txtdob" runat="server" TextMode="Date"></asp:TextBox>
+                        <asp:TextBox ID="txtdob" runat="server" TextMode="Date" AutoCompleteType="Disabled"></asp:TextBox>
                     </td>
                 </tr>
                
